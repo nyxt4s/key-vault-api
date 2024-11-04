@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "KeyVaultApi.Application/1.0.0": {
+        "dependencies": {
+          "KeyVaultApi.Domain": "1.0.0"
+        },
+        "runtime": {
+          "KeyVaultApi.Application.dll": {}
+        }
+      },
+      "KeyVaultApi.Domain/1.0.0": {
+        "runtime": {
+          "KeyVaultApi.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KeyVaultApi.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KeyVaultApi.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

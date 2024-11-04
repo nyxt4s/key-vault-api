@@ -1,0 +1,21 @@
+C:\projects\key-vault-api\KeyVaultApi.Infrastructure\bin\Debug\net8.0\KeyVaultApi.Infrastructure.deps.json
+C:\projects\key-vault-api\KeyVaultApi.Infrastructure\bin\Debug\net8.0\KeyVaultApi.Infrastructure.dll
+C:\projects\key-vault-api\KeyVaultApi.Infrastructure\bin\Debug\net8.0\KeyVaultApi.Infrastructure.pdb
+C:\projects\key-vault-api\KeyVaultApi.Infrastructure\obj\Debug\net8.0\KeyVaultApi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\key-vault-api\KeyVaultApi.Infrastructure\obj\Debug\net8.0\KeyVaultApi.Infrastructure.AssemblyInfoInputs.cache
+C:\projects\key-vault-api\KeyVaultApi.Infrastructure\obj\Debug\net8.0\KeyVaultApi.Infrastructure.AssemblyInfo.cs
+C:\projects\key-vault-api\KeyVaultApi.Infrastructure\obj\Debug\net8.0\KeyVaultApi.Infrastructure.csproj.CoreCompileInputs.cache
+C:\projects\key-vault-api\KeyVaultApi.Infrastructure\obj\Debug\net8.0\KeyVaultApi.Infrastructure.dll
+C:\projects\key-vault-api\KeyVaultApi.Infrastructure\obj\Debug\net8.0\refint\KeyVaultApi.Infrastructure.dll
+C:\projects\key-vault-api\KeyVaultApi.Infrastructure\obj\Debug\net8.0\KeyVaultApi.Infrastructure.pdb
+C:\projects\key-vault-api\KeyVaultApi.Infrastructure\obj\Debug\net8.0\ref\KeyVaultApi.Infrastructure.dll
+C:\projects\key-vault-api\KeyVaultApi.Infrastructure\bin\Debug\net8.0\KeyVaultApi.Application.dll
+C:\projects\key-vault-api\KeyVaultApi.Infrastructure\bin\Debug\net8.0\KeyVaultApi.Domain.dll
+C:\projects\key-vault-api\KeyVaultApi.Infrastructure\bin\Debug\net8.0\KeyVaultApi.Application.pdb
+C:\projects\key-vault-api\KeyVaultApi.Infrastructure\bin\Debug\net8.0\KeyVaultApi.Domain.pdb
+C:\projects\key-vault-api\KeyVaultApi.Infrastructure\obj\Debug\net8.0\KeyVaultApi.Infrastructure.csproj.AssemblyReference.cache
+C:\projects\key-vault-api\KeyVaultApi.Infrastructure\obj\Debug\net8.0\KeyVault.47FC8992.Up2Date
+<<<<<<< HEAD
+=======
+C:\projects\key-vault-api\KeyVaultApi.Infrastructure\obj\Debug\net8.0\KeyVaultApi.Infrastructure.sourcelink.json
+>>>>>>> master
