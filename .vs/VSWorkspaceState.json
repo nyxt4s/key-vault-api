@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\KeyVaultApi.Api",
+    "\\KeyVaultApi.Application\\Interfaces",
+    "\\KeyVaultApi.Infrastructure"
+  ],
+  "SelectedNode": "\\key-vault-api.sln",
+  "PreviewInSolutionExplorer": false
+}

@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KeyVaultApi.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc2466b7e5258f735af8c6fc244a0c9d30b21191")]
->>>>>>> master
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+399953aca380476aa7d69ea7daabe1988a780333")]
 [assembly: System.Reflection.AssemblyProductAttribute("KeyVaultApi.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KeyVaultApi.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

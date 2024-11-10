@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projects\\key-vault-api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8AE1367-1271-4FD7-8F66-65C1D77E296E}|KeyVaultApi.Api\\KeyVaultApi.Api.csproj|c:\\projects\\key-vault-api\\keyvaultapi.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8AE1367-1271-4FD7-8F66-65C1D77E296E}|KeyVaultApi.Api\\KeyVaultApi.Api.csproj|solutionrelative:keyvaultapi.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8AE1367-1271-4FD7-8F66-65C1D77E296E}|KeyVaultApi.Api\\KeyVaultApi.Api.csproj|c:\\projects\\key-vault-api\\keyvaultapi.api\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8AE1367-1271-4FD7-8F66-65C1D77E296E}|KeyVaultApi.Api\\KeyVaultApi.Api.csproj|solutionrelative:keyvaultapi.api\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Api\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Api\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Api\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "KeyVaultApi.Api\\Controllers\\BrandController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T18:15:56.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Api\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Api\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Api\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "KeyVaultApi.Api\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T18:15:55.034Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

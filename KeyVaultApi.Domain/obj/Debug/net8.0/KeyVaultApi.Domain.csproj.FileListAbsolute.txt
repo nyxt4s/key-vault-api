@@ -5,11 +5,8 @@ C:\projects\key-vault-api\KeyVaultApi.Domain\obj\Debug\net8.0\KeyVaultApi.Domain
 C:\projects\key-vault-api\KeyVaultApi.Domain\obj\Debug\net8.0\KeyVaultApi.Domain.AssemblyInfoInputs.cache
 C:\projects\key-vault-api\KeyVaultApi.Domain\obj\Debug\net8.0\KeyVaultApi.Domain.AssemblyInfo.cs
 C:\projects\key-vault-api\KeyVaultApi.Domain\obj\Debug\net8.0\KeyVaultApi.Domain.csproj.CoreCompileInputs.cache
+C:\projects\key-vault-api\KeyVaultApi.Domain\obj\Debug\net8.0\KeyVaultApi.Domain.sourcelink.json
 C:\projects\key-vault-api\KeyVaultApi.Domain\obj\Debug\net8.0\KeyVaultApi.Domain.dll
 C:\projects\key-vault-api\KeyVaultApi.Domain\obj\Debug\net8.0\refint\KeyVaultApi.Domain.dll
 C:\projects\key-vault-api\KeyVaultApi.Domain\obj\Debug\net8.0\KeyVaultApi.Domain.pdb
 C:\projects\key-vault-api\KeyVaultApi.Domain\obj\Debug\net8.0\ref\KeyVaultApi.Domain.dll
-<<<<<<< HEAD
-=======
-C:\projects\key-vault-api\KeyVaultApi.Domain\obj\Debug\net8.0\KeyVaultApi.Domain.sourcelink.json
->>>>>>> master
