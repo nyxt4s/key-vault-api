@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using KeyVaultApi.Application.Interfaces;
 using KeyVaultApi.Domain.Entities;
+using KeyVaultApi.Application.Interfaces.Services;
 
 
 namespace KeyVaultApi.API.Controllers
@@ -9,24 +9,24 @@ namespace KeyVaultApi.API.Controllers
     [ApiController]
     public class BrandController : ControllerBase
     {
-        private readonly IBrandRepository _brandRepository;
+        private readonly IBrandService _brandService;
 
-        public BrandController(IBrandRepository brandRepository)
+        public BrandController(IBrandService brandService)
         {
-            _brandRepository = brandRepository;
+            _brandService = brandService;
         }
 
         [HttpGet]
         public async Task<ActionResult<List<Brand>>> GetAllBrands()
         {
-            var brands = await _brandRepository.GetAllBrandsAsync();
+            var brands = await _brandService.GetAllBrandsAsync();
             return Ok(brands);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Brand>> GetBrandById(int id)
         {
-            var brand = await _brandRepository.GetBrandByIdAsync(id);
+            var brand = await _brandService.GetBrandByIdAsync(id);
             if (brand == null)
             {
                 return NotFound();
@@ -37,7 +37,7 @@ namespace KeyVaultApi.API.Controllers
         [HttpPost]
         public async Task<ActionResult<int>> AddBrand(Brand brand)
         {
-            var newBrandId = await _brandRepository.AddBrandAsync(brand);
+            var newBrandId = await _brandService.AddBrandAsync(brand);
             return CreatedAtAction(nameof(GetBrandById), new { id = newBrandId }, brand);
         }
 
@@ -49,7 +49,7 @@ namespace KeyVaultApi.API.Controllers
                 return BadRequest();
             }
 
-            var updated = await _brandRepository.UpdateBrandAsync(brand);
+            var updated = await _brandService.UpdateBrandAsync(brand);
             if (!updated)
             {
                 return NotFound();
@@ -60,7 +60,7 @@ namespace KeyVaultApi.API.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteBrand(int id)
         {
-            var deleted = await _brandRepository.DeleteBrandAsync(id);
+            var deleted = await _brandService.DeleteBrandAsync(id);
             if (!deleted)
             {
                 return NotFound();

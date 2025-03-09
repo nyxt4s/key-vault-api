@@ -19,8 +19,8 @@ namespace KeyVaultApi.Infrastructure.Repositories
         }
 
         public async Task<List<Brand>> GetAllBrandsAsync()
-        {
-            var sql = "SELECT BrandId, Name FROM [logicvault].[dbo].[Brand]";
+        { 
+            var sql = "SELECT BrandId, Name, BusinessID FROM [logicvault].[dbo].[Brand]";
             using (var connection = _context.CreateConnection())
             {
                 var result = await connection.QueryAsync(sql);
@@ -33,7 +33,8 @@ namespace KeyVaultApi.Infrastructure.Repositories
                     Brand brand = new Brand
                     {
                         BrandId = row.BrandId, // Asignación explícita de cada propiedad
-                        Name = row.Name
+                        Name = row.Name,
+                        BusinessID = row.BusinessID
                     };
                     brands.Add(brand);
                 }
@@ -62,11 +63,11 @@ namespace KeyVaultApi.Infrastructure.Repositories
 
         public async Task<int> AddBrandAsync(Brand brand)
         {
-            var sql = "INSERT INTO [logicvault].[dbo].[Brand] (Name, Active) VALUES (@Name, @Active); SELECT CAST(SCOPE_IDENTITY() AS int);";
+            var sql = "INSERT INTO [logicvault].[dbo].[Brand] (Name, Active, BusinessID) VALUES (@Name, @Active, @BusinessId); SELECT CAST(SCOPE_IDENTITY() AS int);";
             using (var connection = _context.CreateConnection())
             {
                 // Ejecutar la consulta y retornar el ID de la nueva marca
-                var newBrandId = await connection.QuerySingleAsync<int>(sql, new { Name = brand.Name, Active = brand.Active });
+                var newBrandId = await connection.QuerySingleAsync<int>(sql, new { Name = brand.Name, Active = brand.Active, BusinessId = brand.BusinessID  });
                 return newBrandId; // Retornar el ID de la nueva marca
             }
         }

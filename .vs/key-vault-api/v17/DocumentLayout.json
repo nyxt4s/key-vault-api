@@ -3,24 +3,84 @@
   "WorkspaceRootPath": "C:\\projects\\key-vault-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8AE1367-1271-4FD7-8F66-65C1D77E296E}|KeyVaultApi.Api\\KeyVaultApi.Api.csproj|c:\\projects\\key-vault-api\\keyvaultapi.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8AE1367-1271-4FD7-8F66-65C1D77E296E}|KeyVaultApi.Api\\KeyVaultApi.Api.csproj|solutionrelative:keyvaultapi.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B18710B-8F02-4B37-B9CF-EF55ADE75B1E}|KeyVaultApi.Application\\KeyVaultApi.Application.csproj|c:\\projects\\key-vault-api\\keyvaultapi.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B18710B-8F02-4B37-B9CF-EF55ADE75B1E}|KeyVaultApi.Application\\KeyVaultApi.Application.csproj|solutionrelative:keyvaultapi.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B04EA107-C716-46DD-B7B7-549B8FC8FBE8}|KeyVaultApi.Infrastructure\\KeyVaultApi.Infrastructure.csproj|c:\\projects\\key-vault-api\\keyvaultapi.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B04EA107-C716-46DD-B7B7-549B8FC8FBE8}|KeyVaultApi.Infrastructure\\KeyVaultApi.Infrastructure.csproj|solutionrelative:keyvaultapi.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B18710B-8F02-4B37-B9CF-EF55ADE75B1E}|KeyVaultApi.Application\\KeyVaultApi.Application.csproj|c:\\projects\\key-vault-api\\keyvaultapi.application\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B18710B-8F02-4B37-B9CF-EF55ADE75B1E}|KeyVaultApi.Application\\KeyVaultApi.Application.csproj|solutionrelative:keyvaultapi.application\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B18710B-8F02-4B37-B9CF-EF55ADE75B1E}|KeyVaultApi.Application\\KeyVaultApi.Application.csproj|c:\\projects\\key-vault-api\\keyvaultapi.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B18710B-8F02-4B37-B9CF-EF55ADE75B1E}|KeyVaultApi.Application\\KeyVaultApi.Application.csproj|solutionrelative:keyvaultapi.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8AE1367-1271-4FD7-8F66-65C1D77E296E}|KeyVaultApi.Api\\KeyVaultApi.Api.csproj|c:\\projects\\key-vault-api\\keyvaultapi.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8AE1367-1271-4FD7-8F66-65C1D77E296E}|KeyVaultApi.Api\\KeyVaultApi.Api.csproj|solutionrelative:keyvaultapi.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D20A2D8-F3A4-4DC7-86B4-7522EF3D42E3}|KeyVaultApi.Domain\\KeyVaultApi.Domain.csproj|c:\\projects\\key-vault-api\\keyvaultapi.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D20A2D8-F3A4-4DC7-86B4-7522EF3D42E3}|KeyVaultApi.Domain\\KeyVaultApi.Domain.csproj|solutionrelative:keyvaultapi.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D20A2D8-F3A4-4DC7-86B4-7522EF3D42E3}|KeyVaultApi.Domain\\KeyVaultApi.Domain.csproj|c:\\projects\\key-vault-api\\keyvaultapi.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D20A2D8-F3A4-4DC7-86B4-7522EF3D42E3}|KeyVaultApi.Domain\\KeyVaultApi.Domain.csproj|solutionrelative:keyvaultapi.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B04EA107-C716-46DD-B7B7-549B8FC8FBE8}|KeyVaultApi.Infrastructure\\KeyVaultApi.Infrastructure.csproj|c:\\projects\\key-vault-api\\keyvaultapi.infrastructure\\repositories\\businessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B04EA107-C716-46DD-B7B7-549B8FC8FBE8}|KeyVaultApi.Infrastructure\\KeyVaultApi.Infrastructure.csproj|solutionrelative:keyvaultapi.infrastructure\\repositories\\businessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B04EA107-C716-46DD-B7B7-549B8FC8FBE8}|KeyVaultApi.Infrastructure\\KeyVaultApi.Infrastructure.csproj|c:\\projects\\key-vault-api\\keyvaultapi.infrastructure\\repositories\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B04EA107-C716-46DD-B7B7-549B8FC8FBE8}|KeyVaultApi.Infrastructure\\KeyVaultApi.Infrastructure.csproj|solutionrelative:keyvaultapi.infrastructure\\repositories\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D20A2D8-F3A4-4DC7-86B4-7522EF3D42E3}|KeyVaultApi.Domain\\KeyVaultApi.Domain.csproj|c:\\projects\\key-vault-api\\keyvaultapi.domain\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D20A2D8-F3A4-4DC7-86B4-7522EF3D42E3}|KeyVaultApi.Domain\\KeyVaultApi.Domain.csproj|solutionrelative:keyvaultapi.domain\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8AE1367-1271-4FD7-8F66-65C1D77E296E}|KeyVaultApi.Api\\KeyVaultApi.Api.csproj|c:\\projects\\key-vault-api\\keyvaultapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8AE1367-1271-4FD7-8F66-65C1D77E296E}|KeyVaultApi.Api\\KeyVaultApi.Api.csproj|solutionrelative:keyvaultapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B18710B-8F02-4B37-B9CF-EF55ADE75B1E}|KeyVaultApi.Application\\KeyVaultApi.Application.csproj|c:\\projects\\key-vault-api\\keyvaultapi.application\\interfaces\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B18710B-8F02-4B37-B9CF-EF55ADE75B1E}|KeyVaultApi.Application\\KeyVaultApi.Application.csproj|solutionrelative:keyvaultapi.application\\interfaces\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B18710B-8F02-4B37-B9CF-EF55ADE75B1E}|KeyVaultApi.Application\\KeyVaultApi.Application.csproj|c:\\projects\\key-vault-api\\keyvaultapi.application\\services\\businessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B18710B-8F02-4B37-B9CF-EF55ADE75B1E}|KeyVaultApi.Application\\KeyVaultApi.Application.csproj|solutionrelative:keyvaultapi.application\\services\\businessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B04EA107-C716-46DD-B7B7-549B8FC8FBE8}|KeyVaultApi.Infrastructure\\KeyVaultApi.Infrastructure.csproj|c:\\projects\\key-vault-api\\keyvaultapi.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B04EA107-C716-46DD-B7B7-549B8FC8FBE8}|KeyVaultApi.Infrastructure\\KeyVaultApi.Infrastructure.csproj|solutionrelative:keyvaultapi.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8AE1367-1271-4FD7-8F66-65C1D77E296E}|KeyVaultApi.Api\\KeyVaultApi.Api.csproj|c:\\projects\\key-vault-api\\keyvaultapi.api\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8AE1367-1271-4FD7-8F66-65C1D77E296E}|KeyVaultApi.Api\\KeyVaultApi.Api.csproj|solutionrelative:keyvaultapi.api\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6B18710B-8F02-4B37-B9CF-EF55ADE75B1E}|KeyVaultApi.Application\\KeyVaultApi.Application.csproj|c:\\projects\\key-vault-api\\keyvaultapi.application\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B18710B-8F02-4B37-B9CF-EF55ADE75B1E}|KeyVaultApi.Application\\KeyVaultApi.Application.csproj|solutionrelative:keyvaultapi.application\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6B18710B-8F02-4B37-B9CF-EF55ADE75B1E}|KeyVaultApi.Application\\KeyVaultApi.Application.csproj|c:\\projects\\key-vault-api\\keyvaultapi.application\\interfaces\\services\\ibusinessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B18710B-8F02-4B37-B9CF-EF55ADE75B1E}|KeyVaultApi.Application\\KeyVaultApi.Application.csproj|solutionrelative:keyvaultapi.application\\interfaces\\services\\ibusinessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8AE1367-1271-4FD7-8F66-65C1D77E296E}|KeyVaultApi.Api\\KeyVaultApi.Api.csproj|c:\\projects\\key-vault-api\\keyvaultapi.api\\controllers\\businesscontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8AE1367-1271-4FD7-8F66-65C1D77E296E}|KeyVaultApi.Api\\KeyVaultApi.Api.csproj|solutionrelative:keyvaultapi.api\\controllers\\businesscontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6B18710B-8F02-4B37-B9CF-EF55ADE75B1E}|KeyVaultApi.Application\\KeyVaultApi.Application.csproj|c:\\projects\\key-vault-api\\keyvaultapi.application\\interfaces\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B18710B-8F02-4B37-B9CF-EF55ADE75B1E}|KeyVaultApi.Application\\KeyVaultApi.Application.csproj|solutionrelative:keyvaultapi.application\\interfaces\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B18710B-8F02-4B37-B9CF-EF55ADE75B1E}|KeyVaultApi.Application\\KeyVaultApi.Application.csproj|c:\\projects\\key-vault-api\\keyvaultapi.application\\interfaces\\ibusinessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B18710B-8F02-4B37-B9CF-EF55ADE75B1E}|KeyVaultApi.Application\\KeyVaultApi.Application.csproj|solutionrelative:keyvaultapi.application\\interfaces\\ibusinessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D20A2D8-F3A4-4DC7-86B4-7522EF3D42E3}|KeyVaultApi.Domain\\KeyVaultApi.Domain.csproj|c:\\projects\\key-vault-api\\keyvaultapi.domain\\entities\\business.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D20A2D8-F3A4-4DC7-86B4-7522EF3D42E3}|KeyVaultApi.Domain\\KeyVaultApi.Domain.csproj|solutionrelative:keyvaultapi.domain\\entities\\business.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +90,256 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Infrastructure\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "KeyVaultApi.Infrastructure\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Infrastructure\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "KeyVaultApi.Infrastructure\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "KeyVaultApi.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAUwDcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T22:55:09.332Z",
+              "WhenOpened": "2025-02-28T18:21:02.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\Interfaces\\Services\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Application\\Interfaces\\Services\\ICategoryService.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\Interfaces\\Services\\ICategoryService.cs",
+              "RelativeToolTip": "KeyVaultApi.Application\\Interfaces\\Services\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T17:27:33.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "KeyVaultApi.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T16:02:39.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IBrandRepository.cs",
-              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\Interfaces\\IBrandRepository.cs",
-              "RelativeDocumentMoniker": "KeyVaultApi.Application\\Interfaces\\IBrandRepository.cs",
-              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\Interfaces\\IBrandRepository.cs",
-              "RelativeToolTip": "KeyVaultApi.Application\\Interfaces\\IBrandRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Api\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Api\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Api\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "KeyVaultApi.Api\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T22:51:31.666Z",
+              "WhenOpened": "2025-03-04T17:55:59.213Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Api\\Program.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Api\\Program.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Api\\Program.cs",
+              "RelativeToolTip": "KeyVaultApi.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T17:58:56.618Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\Interfaces\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "KeyVaultApi.Application\\Interfaces\\ICategoryRepository.cs",
-              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\Interfaces\\ICategoryRepository.cs",
-              "RelativeToolTip": "KeyVaultApi.Application\\Interfaces\\ICategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "KeyVaultApi.Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwB8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T22:51:30.952Z",
+              "WhenOpened": "2025-03-04T17:31:14.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BrandController.cs",
-              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Api\\Controllers\\BrandController.cs",
-              "RelativeDocumentMoniker": "KeyVaultApi.Api\\Controllers\\BrandController.cs",
-              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Api\\Controllers\\BrandController.cs",
-              "RelativeToolTip": "KeyVaultApi.Api\\Controllers\\BrandController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwEQAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Domain\\Entities\\Brand.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Domain\\Entities\\Brand.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Domain\\Entities\\Brand.cs",
+              "RelativeToolTip": "KeyVaultApi.Domain\\Entities\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T18:15:56.416Z",
+              "WhenOpened": "2025-01-13T20:21:55.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BusinessRepository.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Infrastructure\\Repositories\\BusinessRepository.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Infrastructure\\Repositories\\BusinessRepository.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Infrastructure\\Repositories\\BusinessRepository.cs",
+              "RelativeToolTip": "KeyVaultApi.Infrastructure\\Repositories\\BusinessRepository.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAvwEMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:29:10.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Api\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "KeyVaultApi.Api\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Api\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "KeyVaultApi.Api\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Application\\DTOs\\ProductDto.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "KeyVaultApi.Application\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T18:15:55.034Z",
+              "WhenOpened": "2025-03-05T16:23:23.247Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BrandRepository.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Infrastructure\\Repositories\\BrandRepository.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Infrastructure\\Repositories\\BrandRepository.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Infrastructure\\Repositories\\BrandRepository.cs",
+              "RelativeToolTip": "KeyVaultApi.Infrastructure\\Repositories\\BrandRepository.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T20:22:02.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Application\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "KeyVaultApi.Application\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T17:31:16.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "KeyVaultApi.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:38:19.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "KeyVaultApi.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAIwF0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T20:34:42.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IBusinessRepository.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\Interfaces\\IBusinessRepository.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Application\\Interfaces\\IBusinessRepository.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\Interfaces\\IBusinessRepository.cs",
+              "RelativeToolTip": "KeyVaultApi.Application\\Interfaces\\IBusinessRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:37:02.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BusinessService.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\Services\\BusinessService.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Application\\Services\\BusinessService.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\Services\\BusinessService.cs",
+              "RelativeToolTip": "KeyVaultApi.Application\\Services\\BusinessService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T13:34:23.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Application\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "KeyVaultApi.Application\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:38:13.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IBrandRepository.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\Interfaces\\IBrandRepository.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Application\\Interfaces\\IBrandRepository.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\Interfaces\\IBrandRepository.cs",
+              "RelativeToolTip": "KeyVaultApi.Application\\Interfaces\\IBrandRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:38:14.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IBusinessService.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\Interfaces\\Services\\IBusinessService.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Application\\Interfaces\\Services\\IBusinessService.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Application\\Interfaces\\Services\\IBusinessService.cs",
+              "RelativeToolTip": "KeyVaultApi.Application\\Interfaces\\Services\\IBusinessService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:32:20.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Business.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Domain\\Entities\\Business.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Domain\\Entities\\Business.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Domain\\Entities\\Business.cs",
+              "RelativeToolTip": "KeyVaultApi.Domain\\Entities\\Business.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:27:42.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BusinessControler.cs",
+              "DocumentMoniker": "C:\\projects\\key-vault-api\\KeyVaultApi.Api\\Controllers\\BusinessControler.cs",
+              "RelativeDocumentMoniker": "KeyVaultApi.Api\\Controllers\\BusinessControler.cs",
+              "ToolTip": "C:\\projects\\key-vault-api\\KeyVaultApi.Api\\Controllers\\BusinessControler.cs",
+              "RelativeToolTip": "KeyVaultApi.Api\\Controllers\\BusinessControler.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAmwDkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T13:35:29.593Z"
             }
           ]
         }

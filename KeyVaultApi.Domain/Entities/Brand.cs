@@ -9,6 +9,7 @@ namespace KeyVaultApi.Domain.Entities
     public class Brand
     {
         public int BrandId { get; set; }
+        public int BusinessID { get; set; }
         public string Name { get; set; }
         public Boolean Active { get; set; }
 
