@@ -18,9 +18,9 @@ namespace KeyVaultApi.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<ProductDto>>> GetAllProductsd()
+        public async Task<ActionResult<List<ProductDto>>> GetAllProductsd(int businessId)
         {
-            var products = await _ProductService.GetAllProductsAsync();
+            var products = await _ProductService.GetAllProductsAsync(businessId);
             return Ok(products);
         }
     }

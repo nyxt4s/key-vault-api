@@ -23,31 +23,31 @@ public class ProductRepository : IProductRepository
         throw new NotImplementedException();
     }
 
-    public async Task<IEnumerable<ProductDto>> GetAllProductsAsync()
+    public async Task<IEnumerable<ProductDto>> GetAllProductsAsync(int businessId)
     {
         var query = @"
-        SELECT 
-            p.ProductID,
-            p.Name AS ProductName,
-            p.Description,
-            p.Price,
-            p.Active, 
-            p.CreationDate,
-            p.UpdateDate,
-            b.BusinessID,
-            b.Name AS BusinessName,
-            br.BrandID,
-            br.Name AS BrandName,
-            c.CategoryID,
-            c.Name AS CategoryName
-        FROM Product p
-        INNER JOIN Business b ON b.BusinessID = p.BusinessID
-        INNER JOIN Brand br ON br.BrandID = p.BrandID
-        INNER JOIN Category c ON c.CategoryID = p.CategoryID";
+                SELECT 
+                    p.ProductID,
+                    p.Name AS ProductName,
+                    p.Description,
+                    p.Price,
+                    p.Active, 
+                    p.CreationDate,
+                    p.UpdateDate,
+                    b.BusinessID,
+                    b.Name AS BusinessName,
+                    br.BrandID,
+                    br.Name AS BrandName,
+                    c.CategoryID,
+                    c.Name AS CategoryName
+                FROM Product p
+                INNER JOIN Business b ON b.BusinessID = p.BusinessID
+                INNER JOIN Brand br ON br.BrandID = p.BrandID
+                INNER JOIN Category c ON c.CategoryID = p.CategoryID
+                WHERE b.BusinessID = @BusinessID";
 
         using var connection = _context.CreateConnection();
-
-        var result = await connection.QueryAsync(query);
+        var result = await connection.QueryAsync(query, new { BusinessID = businessId });
 
         List<ProductDto> products = new List<ProductDto>();
 

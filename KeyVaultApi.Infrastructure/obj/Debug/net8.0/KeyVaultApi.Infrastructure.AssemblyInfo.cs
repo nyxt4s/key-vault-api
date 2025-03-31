@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KeyVaultApi.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bd031289c4410267dadaabd58891855ba23e88e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c491a68f5e130dd407d5d41c22ead0ba9804478")]
 [assembly: System.Reflection.AssemblyProductAttribute("KeyVaultApi.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KeyVaultApi.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

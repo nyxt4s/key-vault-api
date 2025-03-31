@@ -10,7 +10,7 @@ namespace KeyVaultApi.Application.Interfaces
 {
     public interface IProductRepository
     {
-        Task<IEnumerable<ProductDto>> GetAllProductsAsync();
+        Task<IEnumerable<ProductDto>> GetAllProductsAsync(int businessId);
         Task<Product> GetProductByIdAsync(int id);
         Task<int> CreateProductAsync(Product product);
         Task<bool> UpdateProductAsync(Product product);

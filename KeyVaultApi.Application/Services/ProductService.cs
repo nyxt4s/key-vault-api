@@ -27,9 +27,9 @@ namespace KeyVaultApi.Application.Services
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<ProductDto>> GetAllProductsAsync()
+        public Task<IEnumerable<ProductDto>> GetAllProductsAsync(int businessId)
         {
-            return _productRepository.GetAllProductsAsync();
+            return _productRepository.GetAllProductsAsync(businessId);
         }
 
         public Task<Product> GetProductByIdAsync(int id)
